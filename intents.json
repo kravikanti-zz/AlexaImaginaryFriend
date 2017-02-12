@@ -1,0 +1,30 @@
+{
+"intents": [
+{
+  "intent":"SuggestTVShow",
+  "slots": [
+    {
+      "name": "TVShows",
+      "type": "AMAZON.TVSeries"
+    },
+    {
+      "name": "TVChannels",
+      "type": "AMAZON.TelevisionChannel"
+    },
+    {
+      "name": "AlexasPicks",
+      "type": "ALEXAS_PICKS"
+    }
+  ]
+},
+  {
+  "intent": "GetChannel",
+  "slots":[
+    {
+      "name": "words",
+      "type": "WORDS"
+    }
+  ]
+    }
+]
+}
